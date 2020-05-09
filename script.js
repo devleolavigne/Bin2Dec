@@ -6,3 +6,9 @@ function convertBin2Dev(bin) {
   document.querySelector('input#dec').value = decimal
   return true
 }
+function checkBinary(number) {
+  const rule = /^[0-1]+$/
+  if (!number.match(rule)) {
+    alert('Binary numbers only')
+  }
+}

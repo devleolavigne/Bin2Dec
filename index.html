@@ -11,7 +11,7 @@
       <h1>Bin2Dec</h1>
       <p>Binary to Decimal Converter</p>
       <label>Binary:</label>
-      <input id="bin" type="numbers">
+      <input id="bin" type="numbers" onblur="checkBinary(this.value)">
       <label>Decimal:</label>
       <input id="dec" type="numbers">
       <button onclick="convertBin2Dev()">Convert</button>
